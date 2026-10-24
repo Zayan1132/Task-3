@@ -1,0 +1,195 @@
+<html lang="eng">
+
+<head>
+
+<title> Continental Hotel Reservation Form </title>
+
+<style>
+
+body{
+
+background-color:lightgray;
+
+font-family: Arial, sans-serif;
+
+}
+
+h1{
+
+color:red;
+
+text-align:center;
+
+}
+
+table{
+
+width:500px;
+
+length:1000
+
+font-weight:bold;
+
+border: 2px solid black;
+
+background-color:lightblue;
+
+margin:auto;
+
+}
+
+td{
+
+border:1px solid;
+
+padding:8px;
+
+}
+
+.label-text{
+
+font-weight:bold;
+
+text-align:right;
+
+width:150px;
+
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<h1>Continental Hotel Reservation Form</h1>
+
+<form action="/action_pahe.php">
+
+<table>
+
+<tr>
+
+<td class="label-text">Name</td>
+
+<td><input type="text" name="name" placeholder="Enter your name"></td>
+
+</tr>
+
+<tr>
+
+<td class="label-text">eMAil</td>
+
+<td><input type="email" name="email" value="info@continental.pk"></td>
+
+</tr>
+
+<tr>
+
+<td class="label-text">Mobile No</td>
+
+<td><input type="text" name="mobile" placeholder="Enter your cell number"></td>
+
+</tr>
+
+<tr>
+
+<td class="label-text"> Arrival Time </td>
+
+<td><input type="date" placeholder="Enter your Arrival Time">
+
+</td>
+
+</tr>
+<tr>
+<td class="label-text"> Departure Time </td>
+<td>
+<input type="text" name="departure">
+<input type="text" name="departure">
+</td>
+</tr>
+
+<tr>
+
+<td class="label-text"> Room Type </td>
+
+<td>
+
+<input type="radio" name="room" > Single
+
+<input type="radio" name="room" > Double <br>
+
+<input type="radio" name="room" > Presidential Suite
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="label-text">Prefernces</td>
+
+<td>
+
+<input type="checkbox" name="pref1"> Non-Smoking <br>
+
+<input type="checkbox" name="pref2"> Internet <br>
+
+<input type="checkbox" name="pref3"> Firm Matress <br>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="label-text">Mode of Payment</td>
+
+<td>
+
+<input type="radio" name="pay1"> Cash
+
+<input type="radio" name="pay2"> Cheque <br>
+
+<input type="radio" name="pay3"> Credit Card <br>
+
+<select name="card">
+
+<option>Select Card</option>
+
+<option>Visa</option>
+
+<option>Master Card </option>
+
+</select>
+
+</td>
+
+</tr>
+
+<tr>
+<td>
+</td>
+
+<td style="text-align:center; padding:10px">
+
+<input type="submit" value="Send Data" style="padding: 5px 15px">
+
+</td>
+
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+</body>
+
+</html> 
+
